@@ -1,0 +1,35 @@
+body {
+  font-family: "Lobster", cursive; /* Change to a romantic cursive font */
+  background-color: #ffdde1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  margin: 0;
+  background: url("img/image.jpg") repeat;
+  font-size: 35px;
+  color: rgb(105 80 145);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 18%, rgba(234,233,238,1) 100%);
+
+}
+
+
+.countup {
+  text-align: center;
+  margin: 120px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  color: rgb(105 80 145);
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  color: rgb(105 80 145);
+}
